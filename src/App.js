@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/textForm';
-import About from './components/About';
+// import About from './components/About';
 import Alert from './components/Alert';
 import React, { useState } from 'react';
  
@@ -53,7 +53,7 @@ function App() {
     <>
     <Navbar title="TextUtils" aboutText="About TextUtils" mode={mode} toggleMode={toggleMode}/>
     <Alert alert={alert}/>
-    <TextForm heading="Enter the text to Analyze Below" showAlert={showAlert} mode={mode}/>
+    <TextForm heading="Try TextUtils- Word Counter, Character Counter, Remove Extra spaces " showAlert={showAlert} mode={mode}/>
      {/* <About/> */}
 
 <div className="container my-3">

@@ -18,7 +18,7 @@ export default function AppF() {
       <Routes>
         <Route exact path="/" element={< App/>}/>
         <Route axact path="/" element={< Alert/>}/>
-        <Route exact path="/about" element={< About/>}/>
+        <Route exact path="/about" element={< About />}/>
         
         <Route/>
       </Routes>
